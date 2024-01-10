@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    height: 55px;
+    width: 1920px;
+    font-family: "Noto Sans";
+    font-weight: medium;
+    font-size: 14px;
+    padding-left: 25px;
+    position: relative;
+    background-color: #252525;
+    color: white;
+    line-height: 1.2em;
+    box-shadow: 1px 6px #FFC038;
+    word-spacing: 8px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a.plays {
+    color: #FF599F;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+a.plays:hover {
+    color:#FFC038;
+}
+.PLAY:hover {
+    color: gold;
+  }
+a.forge {
+    color: #FF599F;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+a.Dima {
+    color: #FF599F;
+}
+a.Menu:hover {
+    color: #FF599F;
+    text-decoration: underline;
+}
+.logo {
+    height: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+.play {
+    height: 86px;
+    width: 1920px;
+    background:#FF599F;
+}
+@font-face {
+    font-family: "Minecraft Title Cyrillic";
+    src: local("Minecraft title cyrillic")
+    url("../fonts/minecraft_title_cyrillic.ttf") format('truetype');
+}
+.playLetter {
+    font-family: "Minecraft Title Cyrillic";
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.content {
+    font-size: 26px;
+    position: relative;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.PLAY {
+    font-family: "Minecraft Title Cyrillic", "sans-serif";
+    font-size: 12px;
+    color: #FF599F;
+    margin-left: 1350px;
+    padding: 10px;
+    text-decoration: underline;
+  }
+  .TG {
+    color: #FF599F;
+  }
+  @font-face {
+    font-family: "Noto Sans";
+    src: local("Noto sans")
+    url("../fonts/NotoSans-Regular.ttf") format('truetype')
+}
+  .HowToPlay {
+    margin-top: 50px;
+    font-family: "Noto Sans";
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.2Em;
+    font-weight: bold;
+  }
+  .We {
+    margin-top: 35px;
+    font-family: "Noto Sans";
+    line-height: 1.4Em;
+    word-break: break-all;
+    font-size: 18px;
+    font-weight: medium;
+  }
+  @font-face {
+    font-family: "Noto Sans";
+    src: local("Noto sans")
+    url("../fonts/NotoSans-Regular.ttf") format('truetype')
+  }
+  .Pre {
+    margin-top: 35px;
+    font-weight: bold;
+    font-style: "Noto Sans";
+    font-size: 26px;
+    color: #111111;
+    word-wrap: normal;
+    width: 900px;
+  }
+  .text {
+    margin-top: 20px;
+    font-size: 18px;
+    word-wrap: normal;
+    width: 900px;
+  }
+  .fox {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 350px;
+    margin-right: auto;
+  }
+  footer {
+    padding: 15px;
+    margin-top: 100px;
+    height: 55px;
+    width: 1920px;
+    font-family: "Noto Sans";
+    font-weight: medium;
+    font-size: 14px;
+    padding-left: 25px;
+    position: relative;
+    background-color: #252525;
+    color: white;
+    line-height: 1.2em;
+    box-shadow: 1px -6px #FFC038;
+    word-spacing: 8px;
+}

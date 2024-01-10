@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    height: 55px;
+    width: 1920px;
+    font-family: "Noto Sans";
+    font-weight: medium;
+    font-size: 14px;
+    padding-left: 25px;
+    position: relative;
+    background-color: #252525;
+    color: white;
+    line-height: 1.2em;
+    box-shadow: 1px 6px #FFC038;
+    word-spacing: 8px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a.Menu:hover {
+color: #FF599F;
+text-decoration: underline;
+}
+.PLAY:hover {
+  color: gold;
+}
+.logo {
+    height: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+.PLAY {
+    font-family: "Minecraft Title Cyrillic", "sans-serif";
+    font-size: 12px;
+    color: #FF599F;
+    margin-left: 1350px;
+    padding: 10px;
+    text-decoration: underline;
+  }
+  .TG {
+    color: #FF599F;
+  }
+  @font-face {
+    font-family: "Minecraft Title Cyrillic";
+    src: local("Minecraft title cyrillic")
+    url("../fonts/minecraft_title_cyrillic.ttf") format('truetype');
+  }
+  @font-face {  /* Подключенние стороннего шрифта */
+    font-family: "Noto Sans";
+    src: local("Noto sans") 
+    url("../fonts/NotoSans-Regular.ttf") format('truetype');
+  }
+  .NewsBack {
+    height: 86px;
+    width: 1980px;
+    background-color:#FF599F;
+  }
+  .NewsLetter {
+    font-family: "Minecraft Title Cyrillic";
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 35px;
+    justify-content: center;
+  }
+  footer {
+    padding: 15px;
+    margin-top: 900px;
+    height: 55px;
+    width: 1920px;
+    font-family: "Noto Sans";
+    font-weight: medium;
+    font-size: 14px;
+    padding-left: 25px;
+    position: relative;
+    background-color: #252525;
+    color: white;
+    line-height: 1.2em;
+    box-shadow: 1px -6px #FFC038;
+    word-spacing: 8px;
+  }

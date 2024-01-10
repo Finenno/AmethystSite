@@ -1,0 +1,425 @@
+body {
+    background-image: url("https://framerusercontent.com/images/hX03fnuG5n73fnr2CU7WjSeMb4.png?scale-down-to=2048");
+    background-repeat: no-repeat;
+    background-size: 1980px 620px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+@font-face {  /* Подключенние стороннего шрифта */
+    font-family: "Noto Sans";
+    src: local("Noto sans") 
+    url("../fonts/NotoSans-Regular.ttf") format('truetype');
+}
+@font-face {  /* Подключенние стороннего шрифта */
+    font-family: "Noto Sans Bold";
+    font-weight: bold;
+    src: local("Noto sans") 
+    url("../fonts/NotoSans-Bold.ttf") format('truetype');
+}
+header {
+    height: 55px;
+    width: 1920px;
+    font-family: "Noto Sans";
+    font-weight: medium;
+    font-size: 14px;
+    padding-left: 25px;
+    position: relative;
+    background-color: #252525;
+    color: white;
+    line-height: 1.2em;
+    box-shadow: 1px 6px #FFC038;
+    word-spacing: 8px;
+}
+
+a.Menu {
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a.Menu:hover {
+    color: #FF599F;
+    text-decoration: underline;
+}
+.logo {
+    height: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+.text {  /* АМЕТИСТ - СЕРВЕР КОМФОРТИКОВ */
+    font-family: "Noto Sans";
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+@font-face {
+    font-family: "Minecraft Title Cyrillic";
+    src: local("Minecraft title Cyrillic") 
+    url("../fonts/minecraft_title_cyrillic.ttf") format('truetype');
+} 
+.startplay { /* Кнопка начать играть */
+    text-decoration: none;
+    width: 304px;
+    height: 62px;
+    font-family: "Minecraft Title Cyrillic", "sans-serif";
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+    background-color: #CF20FF;
+    margin-top: 100px;
+    box-shadow: 0px -4px #FECEFF;
+  }
+  .startplay:hover {
+    transform: scale(1.1);
+    color:white;
+  }
+  .PLAY {
+    font-family: "Minecraft Title Cyrillic", "sans-serif";
+    font-size: 12px;
+    color: #FF599F;
+    margin-left: 1350px;
+    padding: 10px;
+    text-decoration: underline;
+  }
+  .PLAY:hover {
+    color: gold;
+  }
+  .TG {
+    color: #FF599F;
+  }
+  .age {
+    opacity: 75%;
+    font-family: "Minecraft Title Cyrillic";
+    font-size: 25px;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .news {
+    height: 105px;
+    width: 1980px;
+    padding: 30px;
+    font-family: "Minecraft Title Cyrillic";
+    font-size: 32px;
+    color: white;
+    background-color: #252525;
+    margin-top: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px -6px #FFC038;
+    line-height: 1.2em;
+  }
+.news:hover {
+    transform: scale(1.1);
+}
+.frog-1{
+    position: relative;
+    margin-top: -105px;
+    margin-left: 575px;
+}
+.frog-1:hover{
+  transform: scale(1.1);
+}
+.frog-2{
+    position: relative;
+    margin-left: 450px;
+    margin-top: -105px;
+}
+.frog-2:hover{
+  transform: scale(1.1);
+}
+.trailer {
+    position: relative;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color:#CF20FF;
+    height: 506.25px;
+    width: 900px;
+}
+.Dima-H {
+    position: relative;
+    font-family: "Minecraft Title Cyrillic";
+    font-size: 32px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.DimaBack{
+    position: absolute;
+    height: 230px;
+    width: 1980px;
+    background-color:#CF20FF;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 1px -6px #FEADFF;
+}
+.Dima {
+    position: absolute;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color:white;
+    padding: 100px;
+    margin-left: 600px;
+    margin-right: auto;
+    text-align: left;
+}
+.Tema {
+    position: relative;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color:white;
+    padding: 100px;
+    margin-left: 350px;
+    margin-right: auto;
+    text-align: left;
+}
+.TemaBack{
+    position: absolute;
+    height: 230px;
+    width: 1980px;
+    background-color:#CF20FF;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 1px -6px #FEADFF;
+}
+.Tema-H {
+    position: relative;
+    font-family: "Minecraft Title Cyrillic";
+    font-size: 32px;
+    color: white;
+    text-align: left;
+}
+.Description {
+    position:relative;
+    margin-top: 25px;
+    margin-left: 500px;
+    margin-right: auto;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color: #111111;
+    font-weight: bolder;
+}
+.ver {
+    margin-left: 600px;
+    margin-right: auto;
+    position: relative;
+    margin-top: 50px;
+    text-align: left;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    color:#111111;
+    font-weight: bold;
+}
+.But {
+    margin-left: 770px;
+    margin-right: auto;
+    position: relative;
+    margin-top: -30px;
+    font-family: "Noto Sans";
+}
+.DimaIm {
+    margin-top: 20px;
+    position: relative;
+    margin-left: 340px;
+    margin-right: auto;
+    filter: drop-shadow(0.35rem 0.35rem 1.4rem rgba(255, 255, 255, 0.5));
+}
+.TemaIm {
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -390px;
+    margin-right: auto;
+    filter: drop-shadow(0.35rem 0.35rem 1.4rem rgba(255, 255, 255, 0.5));
+}
+
+.verIm {
+    position:relative;
+    margin-left: 500px;
+    margin-top: -110px;
+    margin-right: auto;
+
+}
+.HowToPlayHeader {
+    line-height: 1.2Em;
+    margin-top: 150px;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+  }
+  .HowToPlay {
+    margin-top: 30px;
+    line-height: 1.2Em;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color: #111111;
+    text-align:left;
+    margin-left: 500px;
+    margin-right: auto;
+  
+  }
+  .HowToPlayFoot {
+    line-height: 1.2Em;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color:#111111;
+    text-align: left;
+    margin-left: 1000px;
+  }
+  .AcessBack {
+    position: relative;
+    margin-top: 60px;
+    height: 403px;
+    width: 1980px;
+    background-color: #2D2D2D;
+    box-shadow: 1px -6px #FFC038; 
+  }
+  .FreeAcPlus {
+    font-style: "Noto Sans";
+    line-height: 1.2Em;
+    margin-top: -400px;
+    position: relative;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    margin-left: 450px;
+    margin-right: auto;
+    padding: 30px;
+  }
+  .FreeAcMin {
+    font-style: "Noto Sans";
+    line-height: 1.2Em;
+    margin-top: -190px;
+    position: relative;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    margin-left: 1100px;
+    margin-right: auto;
+    padding: 30px;
+  }
+  .FreeAcPlusIm {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: auto;
+  }
+  .SonaBack {
+    margin-top: 150px;
+    position: absolute;
+    height: 230px;
+    width: 1980px;
+    background-color:#CF20FF;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    box-shadow: 1px -6px #FEADFF;
+  }
+  .Sona {
+    margin-top: 120px;
+    position: relative;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color:white;
+    padding: 100px;
+    margin-left: 700px;
+    margin-right: auto;
+    text-align: left;
+  }
+  .Sona-H {
+    position: relative;
+    font-family: "Minecraft Title Cyrillic";
+    font-size: 32px;
+    color: white;
+    text-align: left;
+  }
+  .SonaIm {
+    position: relative;
+    margin-left: 500px;
+    margin-top: -320px;
+    filter: drop-shadow(0.35rem 0.35rem 1.4rem rgba(255, 255, 255, 0.5));
+  }
+  .StartToPlayBack {
+    margin-top: 100px;
+    height: 150px;
+    width: 1980px;
+    background-color:#CF20FF;
+  }
+  .StartToPlay {
+    position: absolute;
+    margin-left: 750px;
+    margin-right: auto;
+    margin-top: -100px;
+    font-family: "Minecraft Title Cyrillic";
+    font-size: 32px;
+    color:white;
+    text-align: center;
+  }
+
+.StartToPlayBack:hover {
+  transform: scale(1.1);
+}
+.Nuh-1 {
+    position: relative;
+    margin-top: -140px;
+    margin-left: 600px;
+}
+.Nuh-2 {
+  position: relative;
+  margin-top: -140px;
+  margin-left: 450px;
+}
+  footer {
+    padding: 10px;
+    margin-top: 100px;
+    height: 55px;
+    width: 1920px;
+    font-family: "Noto Sans";
+    font-weight: medium;
+    font-size: 14px;
+    padding-left: 25px;
+    position: relative;
+    background-color: #252525;
+    color: white;
+    line-height: 1.2em;
+    box-shadow: 1px -6px #FFC038;
+    word-spacing: 8px;
+}
